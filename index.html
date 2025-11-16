@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyBot - Academic Assistant</title>
+  <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gradient-bg"></div>
+  <div class="grid-overlay"></div>
+  
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+        <div class="logo-icon">📚</div>
+        StudyBot
+      </div>
+      <div class="nav-links">
+        <a href="#" class="nav-link">Features</a>
+        <a href="#" class="nav-link">How it Works</a>
+        <a href="#" class="nav-link">About</a>
+      </div>
+      <button class="cta-button">Get Started</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="badge">
+        <span>✨</span>
+        <span>AI-Powered Learning</span>
+      </div>
+      <h1>Your Academic<br>Assistant</h1>
+      <p class="hero-description">
+        Get instant help with your studies. Ask questions, understand concepts better, 
+        and improve your learning with our intelligent AI assistant.
+      </p>
+    </div>
+
+    <!-- Chat Section - Clean and Functional -->
+     <div class="chat-section">
+        <div class="chat-wrapper">
+        <div class="chat-header">
+          <div class="header-content">
+            <h2 class="chat-title">Chat with StudyBot</h2>
+            <p class="chat-subtitle">Ask any academic question and get instant help</p>
+          </div>
+          <div class="chat-status">
+            <span class="status-dot"></span>
+            <span>Online</span>
+          </div>
+        </div>
+        <div class="chat-container">
+  <langflow-chat
+    window_title="Academic assistant"
+    flow_id="d6e28827-10d0-4ef5-b195-4df8abbf4f54"
+    api_key="sk-YgSEsy9KcXsoBi1836KDuLYaATEt1OfLs5SmNIbxiD0"
+    headers='{
+        "ngrok-skip-browser-warning": "true"
+    }'
+    host_url="http://localhost:7860">
+</langflow-chat>
+        </div>
+     </div>
+      
+        
+        <!-- This is where Langflow chat will appear -->
+        
+        
+      </div>
+
+    <!-- Simple Info Cards -->
+    <div class="info-section">
+      <div class="info-card">
+        <div class="info-icon">🚀</div>
+        <h3>Instant Responses</h3>
+        <p>Get answers to your questions in real-time</p>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">🎯</div>
+        <h3>Smart & Accurate</h3>
+        <p>Powered by advanced AI for precise answers</p>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">📖</div>
+        <h3>Study Companion</h3>
+        <p>Available 24/7 to help with your learning</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
