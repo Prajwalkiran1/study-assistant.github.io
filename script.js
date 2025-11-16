@@ -6,8 +6,8 @@ const LANGFLOW_CONFIG = {
     // Langflow Widget Configuration
     widgetScriptUrl: 'https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js',
     windowTitle: 'StudyBot',
-    flowId: '02c241e7-bc13-42d8-9886-4dc0c65627e6',
-    hostUrl: 'https://todd-nonaffiliating-unproperly.ngrok-free.dev/',
+    flowId: '',
+    hostUrl: '',
     chatPosition: 'center'
 };
 
